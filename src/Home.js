@@ -19,8 +19,12 @@ export default class Home extends React.Component{
 
                     <Navbar.Collapse>
                         <ul className="nav navbar-nav">
-                            <li><a href="#">link</a></li>
-                             <li><a href="#">link</a></li>
+                            <li><a href="#">Home</a></li>
+                             <li><a href="#">About Me</a></li>
+                             <li><a href="#">Photo's</a></li>
+                             <li><a href="#">Porfolio</a></li>
+                             <li><a href="#">Services</a></li>
+                             <li><a href="#">Blog</a></li>
                         </ul>
                     </Navbar.Collapse>
                </Navbar>     
