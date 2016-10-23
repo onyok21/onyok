@@ -21,17 +21,17 @@ export default class Header extends React.Component {
                         </Navbar.Header>
                         <Navbar.Collapse>
                         <Nav>
-                            <NavItem eventKey={1}>Home</NavItem>
-                            <NavItem eventKey={2}>About</NavItem>
-                            <NavItem eventKey={4}>Photo's</NavItem>
-                            <NavItem eventKey={3}>Portfolio</NavItem>
-                            <NavItem eventKey={5}>Services</NavItem>
-                            <NavItem eventKey={8}>Blog</NavItem>
+                            <NavItem>Home</NavItem>
+                            <NavItem>About</NavItem>
+                            <NavItem>Photo's</NavItem>
+                            <NavItem>Portfolio</NavItem>
+                            <NavItem>Services</NavItem>
+                            <NavItem>Contact</NavItem>
+                            <NavItem>Blog</NavItem>
+                            {this.props.children}
                         </Nav>
                         </Navbar.Collapse>
                     </Navbar>
-                    {this.props.children}
-                    
                 </div>
             </Well>
         );
