@@ -4,8 +4,7 @@ import {Router,
 		Route,
 		hashHistory } from 'react-router'
 
-//import {createStore} from 'react-redux'
-import App from './components/App'
+import Register from './components/Register'
 import Home from './components/Pages/Home'
 import About from './components/Pages/About'
 import Menu from './components/Pages/Menu'
@@ -17,7 +16,7 @@ import './styles/bootstrap.css'
 
 const Components=(
 	<Router history={hashHistory}>
-		<Route path="/" component={App}>
+		<Route path="/" component={Register}>
 			<Route path="home" component={Home}></Route>
 			<Route path="about" component={About}></Route>
 			<Route path="menu" component={Menu}></Route>
